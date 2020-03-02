@@ -60,7 +60,7 @@ def sms_reply():
         resp.message("Your  A/c XXXXXXX2138 on 02/02/2020 .Avl Bal Rs "+str(data[m-1,n-1]))
     if msg=="2":
         message.body('Expenditure Categorisation')
-        message.media('https://cc70f734.ngrok.io/myfig1.png')
+        message.media('https://demo.twilio.com/owl.png')
         response.append(message)
         return str(response)
     if msg=="3":
