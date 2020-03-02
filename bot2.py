@@ -65,7 +65,7 @@ def sms_reply():
         return str(response)
     if msg=="3":
         message.body('Atms near me')
-        message.media('https://cc70f734.ngrok.io/atms.png')
+        message.media('https://github.com/savyatam/WhatsappChatBot/blob/master/atms.png')
         response.append(message)
         return str(response)
     if msg=="4":
