@@ -17,7 +17,6 @@ python-dateutil==2.8.1
 python-qt-binding==0.3.4
 pytz==2019.3
 requests==2.23.0
-resource-retriever==1.12.4
 topic-tools==1.12.14
 twilio==6.35.5
 unique-id==1.0.5
