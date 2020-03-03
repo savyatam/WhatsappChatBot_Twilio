@@ -65,7 +65,7 @@ def sms_reply():
         return str(response)
     if msg=="3":
         message.body('Atms near me')
-        message.media('https://find-atm-with-cash-no-cash.en.aptoide.com/')
+        message.media('https://savyatam.github.io/WhatsappChatBot/')
         response.append(message)
         return str(response)
     if msg=="4":
