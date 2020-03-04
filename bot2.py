@@ -65,7 +65,7 @@ def sms_reply():
         return str(response)
     if msg=="3":
         message.body('Atms near me')
-        message.media('https://savyatam.github.io/sampleChatBot//atms.png')
+        message.media('https://savyatam.github.io/sampleChatBot/atms.png')
         response.append(message)
         return str(response)
     if msg=="4":
