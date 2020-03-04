@@ -60,12 +60,12 @@ def sms_reply():
         resp.message("Your  A/c XXXXXXX2138 on 02/02/2020 .Avl Bal Rs "+str(data[m-1,n-1]))
     if msg=="2":
         message.body('Expenditure Categorisation')
-        message.media('https://demo.twilio.com/owl.png')
+        message.media('https://savyatam.github.io/sampleChatBot/myfig1.png')
         response.append(message)
         return str(response)
     if msg=="3":
         message.body('Atms near me')
-        message.media('https://savyatam.github.io/WhatsappChatBot/')
+        message.media('https://savyatam.github.io/sampleChatBot//atms.png')
         response.append(message)
         return str(response)
     if msg=="4":
@@ -74,12 +74,12 @@ def sms_reply():
       "Loan amount of minimum ₹ 1 Lakh to ₹ 30 Lakh. Standard Chartered personal loan rate of interest is in the range of 10.99% to 19.00%.")
     if msg=="5":
         message.body('Balance Analysis')
-        message.media('https://cc70f734.ngrok.io/myfig.png')
+        message.media('https://savyatam.github.io/sampleChatBot/myfig.png')
         response.append(message)
         return str(response)  
     if msg=="6":
         message.body('transaction history')
-        message.media('https://cc70f734.ngrok.io/transition.png')
+        message.media('https://savyatam.github.io/sampleChatBot/transition.png')
         response.append(message)
         return str(response)
     if msg=="Options":
